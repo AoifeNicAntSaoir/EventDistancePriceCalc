@@ -31,7 +31,7 @@ public class Event implements Comparable<Event> {
 
     }
     public double getManhattanDistance(){
-        return (userCoordinates.getX() - eventCoordinates.getY()) + (userCoordinates.getY() - userCoordinates.getY());
+        return (userCoordinates.getX() - eventCoordinates.getX()) + (userCoordinates.getY() - userCoordinates.getY());
     }
     public double getPrice() {
         return price;
